@@ -4,7 +4,7 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Cormorant:wght@600&display=swap');
 
 @font-face {
-    src: url(fonts/newyork.otf);
+    src: url(fonts/NewYork.otf);
     font-family: newyork;
 }
 
