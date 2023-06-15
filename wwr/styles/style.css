@@ -235,7 +235,40 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
+/* ------------------- FAQ Page Design -------------------- */
 
+#faq-menu {
+    width: 60%;
+    margin: auto;
+}
+
+.accordion {
+    background-color: #6aab86;
+    color: white;
+    font-size: 0.8em;
+    cursor: pointer;
+    padding: 22px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    transition: 0.5s;
+}
+
+.active, .accordion:hover {
+    background-color: #579371;
+}
+
+.panel {
+    font-size: 0.7em;
+    padding: 18px 18px;
+    background-color: white;
+    display: none;
+    overflow: scroll;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+/* ------------------- Mobile Site Design ----------------------*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
