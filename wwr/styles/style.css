@@ -242,7 +242,7 @@ footer .social img {
 #faq-menu {
     width: 70%;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .accordion {
@@ -281,6 +281,14 @@ footer .social img {
     overflow: scroll;
     text-align: left;
     margin-bottom: 5px;
+}
+
+#more-questions {
+    margin-top: 100px;
+}
+
+#more-questions p {
+    font-size: 25px;
 }
 
 /* ------------------- Mobile Site Design ----------------------*/
