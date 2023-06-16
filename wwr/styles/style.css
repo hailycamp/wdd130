@@ -91,7 +91,7 @@ nav a:hover {
 
 #hero-img {
     width: 100%;
-    opacity: 0.85;
+    opacity: 0.95;
 }
 
 #hero-msg {
@@ -237,9 +237,12 @@ footer .social img {
 }
 /* ------------------- FAQ Page Design -------------------- */
 
+
+
 #faq-menu {
-    width: 60%;
+    width: 70%;
     margin: auto;
+    margin-top: 200px;
 }
 
 .accordion {
@@ -247,7 +250,8 @@ footer .social img {
     color: white;
     font-size: 0.8em;
     cursor: pointer;
-    padding: 22px;
+    padding: 23px;
+    padding-left: 35px;
     width: 100%;
     text-align: left;
     border: none;
@@ -258,10 +262,21 @@ footer .social img {
     background-color: #579371;
 }
 
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
 .panel {
     font-size: 0.7em;
     padding: 18px 18px;
-    background-color: white;
+    background-color: #f2f5f2;
     display: none;
     overflow: scroll;
     text-align: left;
@@ -325,6 +340,12 @@ footer .social img {
         margin: 0 auto;
     }
     footer {
+        margin-top: 75px;
+    }
+
+/* FAQ page */
+
+    #faq-menu {
         margin-top: 75px;
     }
 }
