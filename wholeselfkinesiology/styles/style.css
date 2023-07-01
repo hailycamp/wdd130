@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Cormorant:wght@600&display=swap');
+
+@font-face {
+    src: url('fonts/Frunchy.otf');
+    font-family: frunchy;
+}
+
+
+:root {
+  --primary-color: #03604C;
+  --secondary-color: #E4EB9A;
+  --avocado: #67910d;
+  --watermelon: #f0645a;
+  --apricot: #FDCFB5;
+  --sunshine: #FFC64A;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: 'frunchy', Cormorant, serif;
+  --paragraph-font: "Alegreya Sans", Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #03604C;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #03604C; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #03604c;
+  --nav-link-color: #03604C;
+  --nav-background-color: #E4EB9A;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #68920E;
+}
+
+body {
+    margin: 0;
+    max-width: 1500px;
+    background-color: var(--secondary-color);
+}
+
+h1, h3, h4 {
+    font-family: var(--heading-font);
+}
+
+h1 {
+    font-size: 7em;
+    line-height: 80px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: var(--paragraph-font);
+    text-transform: uppercase;
+    font-size: 3em; 
+}
+
+h3 {
+    font-size: 5em;
+}
+
+h4 {
+    font-size: 3em;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    font-size: 1.7em;
+}
+
+header {
+    width: 100%;
+}
+
+#header-logo {
+    height: 350px;
+    display: block;
+    margin: auto;
+}
+
+header * {
+    display: inline;
+}
+
+header ul {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 3em;
+}
+
+header ul li {
+    display: flex;
+    justify-content: center;
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: var(--paragraph-font);
+}
+
+header ul li a:hover {
+    color: var(--watermelon);
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 40% 30% 20% 10%;
+}
+
+.hero-image {
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/5;
+}
+
+.page-title {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.page-subtitle {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.hero .button-box { 
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.button-box {
+    width: 250px;
+    height: 75px;
+    margin: auto;
+    text-align: center;
+    background-color: var(--avocado);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-box:hover {
+    background-color: var(--watermelon);
+}
+
+.button-box a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+    font-size: 2em;
+    padding: 20px;
+}
+
+#welcome {
+    background-color: var(--primary-color);
+    color: var(--headline-color-on-color);
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 250px;
+}
+
+#welcome h2, #welcome p {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.learn-more-link {
+    color: white;
+    font-family: var(--paragraph-font);
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+.learn-more-link:hover {
+    color: var(--watermelon);
+}
+
+#about-the-owner {
+    display: grid;
+    grid-template-columns: 15% 32.5% 5% 32.5% 15%;
+    margin-bottom: 200px;
+}
+
+#home-profile {
+    margin-top: -125px;
+    width: 100%;
+    min-width: 375px;
+    grid-column: 4/5;
+    grid-row: 1/2;
+}   
+
+#about-owner-msg {
+    margin-top: 75px;
+    width: 100%;
+    min-width: 375px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#about-owner-msg p {
+    color: black;
+}
+
+#plug {
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: 5% 42.5% 5% 32.5% 15%;
+}
+
+#plug-msg {
+    width: 100%;
+    min-width: 375px;
+    margin-top: 25px;
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+#veggie-collage {
+    width: 100%;
+    min-width: 375px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#plug p {
+    color: black;
+}
+
+#plug .learn-more-link {
+    color: black;
+}
+
+#plug .learn-more-link:hover {
+    color: var(--watermelon);
+}
+
+#highlights {
+    padding-top: 50px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    background-color: var(--primary-color);
+}
+
+#highlights h3 {
+    color: var(--headline-color-on-color);
+    text-align: center;
+}
+
+#service-cards {
+    display: flex;
+    margin: 75px auto;
+    justify-content: center;
+}
+
+.service-card {
+    width: 22%;
+    margin: 40px;
+}
+
+.service-card img {
+    width: 100%;
+}
+
+.service-card h4, p {
+    color: white;
+    margin-bottom: 35px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 25% 15% 20% 15% 25%;
+    font-size: 0.8em;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#admin {
+    grid-column: 2/3;
+    text-align: right;
+    padding-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#footer-logo {
+    width: 100%;
+    grid-column: 3/4;
+}
+
+#footer-nav {
+    grid-column: 4/5;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+/*         the hero image needs adjusting under 1000px         */
