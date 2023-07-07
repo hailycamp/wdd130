@@ -106,6 +106,21 @@ header ul li a:hover {
     color: var(--watermelon);
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--watermelon);
+}
+
+.sticky a:hover {
+    color: white;
+}
+
+.sticky + main {
+  padding-top: 60px;
+}
+
 .hero {
     display: grid;
     grid-template-columns: 20% 60% 20%;

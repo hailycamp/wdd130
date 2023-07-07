@@ -11,7 +11,7 @@
         <a href="index.html">
             <img src="images/logo-dark.png" id="header-logo" alt="Whole Body Logo"/>
         </a>
-        <nav>
+        <nav id="navbar">
             <ul>
                 <li><a href="#">Podcast</a></li>
                 <li><a href="services.html">Services</a></li>
@@ -107,5 +107,19 @@
             </p>
         </div>
     </footer>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
 </body>
 </html>
