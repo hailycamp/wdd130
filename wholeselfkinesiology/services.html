@@ -11,7 +11,7 @@
         <a href="index.html">
             <img src="images/logo-dark.png" id="header-logo" alt="Whole Body Logo"/>
         </a>
-        <nav id="navbar">
+        <nav id="navbar"> 
             <ul>
                 <li><a href="#">Podcast</a></li>
                 <li><a href="services.html">Services</a></li>
@@ -22,52 +22,87 @@
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <img src="images/supplements.png" class="hero-image">
+        <div class="hero" id="services-hero">
+            <img src="images/supplements-fade.png" class="hero-image">
             <div id="services-hero-background"></div>
-            <h1 class="page-title">Services</h1>
-            <h2 class="page-subtitle">Ready to gain clarity on the concerns you are having?</h2>
+            <h1 class="page-title">Services & Tests</h1>
+            <h2 class="page-subtitle">Ready to get to the root causes of your troubles?</h2>
         </div>
         <div id="service-nav">
-            <a href="#">Nutrition Tests</a>
-            <a href="#">Comprehensive Tests</a>
-            <a href="#">Specialized Tests</a>
+            <div class="dropdown">
+                <span class="dropdown-button">Nutrition Tests</span>
+                  <div class="dropdown-content">
+                    <a href="#">Food Tolerance Panel</a>
+                    <a href="#">Vitamins, Minerals, & Amino Acids</a>
+                    <a href="#">Digestive Health Assessment</a>
+                  </div>
+            </div>
+            <div class="dropdown">
+                <span class="dropdown-button">Comprehensive Tests</span>
+                  <div class="dropdown-content">
+                    <a href="#">System Workup</a>
+                    <a href="#">Coming Soon</a>
+                    <a href="#">Coming Soon</a>
+                  </div>
+            </div>
+            <div class="dropdown">
+                <span class="dropdown-button">Specialized Tests</span>
+                  <div class="dropdown-content">
+                    <a href="#">Custom Fitness Plan</a>
+                    <a href="#">Coming Soon</a>
+                    <a href="#">Coming Soon</a>
+                  </div>
+            </div>
         </div>
         <section class="service-summary">
-            <img src="images/yoga.png" alt="girl doing yoga" class="service-image">
-            <h3>System Workup</h3>
-            <p>
-                This test will give you a comprehensive picture of every system of your body, including each of the corresponding organs, glands, and essential parts. The system workup was designed to evaluate total health by examining the health and functionality of each individual part of the body. Due to the breadth of this assessment, it may offer clues, or even answers, as to any symptoms you haven’t been able to explain up until now. The results of this test will offer a better idea of where to focus your attention for additional holistic, nutritional, and supplemental support.
-            </p>
-            <p id="price">
-                $100
-            </p>
+            <img src="images/yoga-450x600.png" alt="girl doing yoga" class="service-image">
+            <section class="service-msg">
+                <h3>System Workup</h3>
+                <p>
+                    This test will give you a comprehensive picture of every system of your body, including each of the corresponding organs, glands, and essential parts. The system workup was designed to evaluate total health by examining the health and functionality of each individual part of the body. Due to the breadth of this assessment, it may offer clues, or even answers, as to any symptoms you haven’t been able to explain up until now. The results of this test will offer a better idea of where to focus your attention for additional holistic, nutritional, and supplemental support.
+                </p>
+                <p id="price">
+                    $100
+                </p>
+            </section>
         </section>
         <section class="service-details">
-            <img class="icon" alt="" src="images/check.png">
-            <p>
-                Learn how well each organ and gland is completing its normal daily function.
-            </p>
-            <img class="icon" alt="" src="images/check.png">
-            <p>
-                Examine the tissue health of each part of the body.
-            </p>
-            <img class="icon" alt="" src="images/check.png">
-            <p>
-                Identify any system weaknesses that may be contributing to your current level of health.
-            </p>
-            <img class="icon" alt="" src="images/check.png">
-            <p>
-                Understand the connections between different parts of your body.
-            </p>
-            <img class="icon" alt="" src="images/check.png">
-            <p>
-                Get recommendations based on total system health.
-            </p>
-            <img class="icon" alt="" src="images/check.png">
-            <p>
-                Gain knowledge to help you address the unexplainable and unknown.
-            </p>
+            <div class="detail-card">
+                <img class="icon" alt="" src="images/ok.png">
+                <p>
+                    Learn how well each organ and gland is completing its normal daily function.
+                </p>
+            </div>
+            <div class="detail-card">
+                <img class="icon" alt="" src="images/ok.png">
+                <p>
+                    Examine the tissue health of each part of the body.
+                </p>
+            </div>
+            <div class="detail-card">
+                <img class="icon" alt="" src="images/ok.png">
+                <p>
+                    Identify any system weaknesses that may be contributing to your current level of health.
+                </p>
+            </div>
+            <div class="detail-card">
+                <img class="icon" alt="" src="images/ok.png">
+                <p>
+                    Understand the connections between different parts of your body.
+                </p>
+            </div>
+            <div class="detail-card">
+                <img class="icon" alt="" src="images/ok.png">
+                <p>
+                    Get recommendations based on total system health.
+                </p>
+            </div>
+            <div class="detail-card">
+                <img class="icon" alt="" src="images/ok.png">
+                <p>
+                    Gain knowledge to help you address the unexplainable and unknown.
+                </p>
+            </div>
         </section>
         <section class="order-now">
             <h4>If you're ready to get the clarity you desire so you can make empowered decisions for your own health, I am at your service.</h4>
@@ -75,6 +110,58 @@
                 <a href="#" id="order-button">Order Now</a>
             </div>
         </section>
+        <section class="reviews-slideshow">
+            <img id="reviews-background" src="images/reviews-dark-fade.png" alt="">
+            <div class="mySlides">
+              <q>I have become so dependent on Jamie's work. I have never found a more correct source of information about my body. The System Workup gave me answers to where my mysterious symptoms were originating from and I FINALLY got to tackle them once and for all. I learned so many cool things about my body's strengths and weaknesses.</q>
+              <p class="author">- Haily C.</p>
+            </div>
+          
+            <div class="mySlides">
+              <q>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum ipsa similique, laboriosam ducimus molestiae alias! Soluta eveniet, rerum iure ab aliquam, sed error qui necessitatibus cum, consequuntur commodi sapiente dolor.</q>
+              <p class="author">- Author 2</p>
+            </div>
+          
+            <div class="mySlides">
+              <q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo consequatur quis distinctio eius blanditiis ipsum maxime accusamus iste cupiditate autem ex praesentium.</q>
+              <p class="author">- Author 3</p>
+            </div>
+          
+            <!-- Next/prev buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </section>
+          
+          <!-- Dots/bullets/indicators -->
+        
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = slides.length}
+                    for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+            }
+        </script>
     </main>
     <footer>
         <div id="admin">
