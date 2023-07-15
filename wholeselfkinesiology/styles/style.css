@@ -436,8 +436,8 @@ footer a {
 }
 
 .priority:nth-of-type(1) img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 
 .priority:nth-of-type(2) {
@@ -452,8 +452,8 @@ footer a {
 }
 
 .priority:nth-of-type(2) img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 
 .priority:nth-of-type(3) {
@@ -468,8 +468,8 @@ footer a {
 }
 
 .priority:nth-of-type(3) img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 
 #contact {
