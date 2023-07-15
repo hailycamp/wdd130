@@ -89,9 +89,9 @@ header ul {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    padding-top: 25px;
-    padding-bottom: 25px;
-    line-height: 3em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 2em;
 }
 
 header ul li {
@@ -102,7 +102,7 @@ header ul li {
 header ul li a {
     color: black;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-family: var(--paragraph-font);
 }
 
@@ -129,12 +129,12 @@ header ul li a:hover {
     display: grid;
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: 40% 30% 20% 10%;
-    max-height: 1000px;
+    max-height: 800px;
 }
 
 .hero-image {
     width: 100%;
-    max-height: 1000px;
+    max-height: 800px;
     grid-column: 1/4;
     grid-row: 1/5;
     object-fit: cover;
@@ -433,6 +433,7 @@ footer a {
 
 .priority:nth-of-type(1) p {
     color: black;
+    line-height: 1.8em;
 }
 
 .priority:nth-of-type(1) img {
@@ -449,6 +450,7 @@ footer a {
 
 .priority:nth-of-type(2) p {
     color: black;
+    line-height: 1.8em;
 }
 
 .priority:nth-of-type(2) img {
@@ -465,6 +467,7 @@ footer a {
 
 .priority:nth-of-type(3) p {
     color: black;
+    line-height: 1.8em;
 }
 
 .priority:nth-of-type(3) img {
@@ -497,6 +500,7 @@ footer a {
 
 #contact-msg p {
     color: white;
+    line-height: 1.8em;
 }
 
 #contact-msg div {
@@ -507,7 +511,7 @@ footer a {
     grid-column: 4/5;
     grid-row: 2/3;
     width: 100%;
-    max-width: 500px;
+    max-width: 450px;
     margin-top: 125px;
     margin-bottom: 100px;
 }
