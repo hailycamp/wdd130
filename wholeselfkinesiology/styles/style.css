@@ -376,8 +376,9 @@ footer a {
 #two-column {
     display: grid;
     grid-template-columns: 10% 37% 6% 37% 10%;
-    height: 750px;
+    height: 600px;
     width: 100%;
+    margin-bottom: 100px;
 }
 
 #background-image {
